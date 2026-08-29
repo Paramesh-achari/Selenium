@@ -10,11 +10,12 @@ import org.testng.annotations.Test;
 
 import Utilites.WebdriverUtilities;
 
+
 public class HandlingMultiSelectDD {
 	@Test
 	public void multiSelect() throws InterruptedException {
 		
-		WebdriverUtilities wutil = new WebdriverUtilities();
+		WebdriverUtilities wutil= new WebdriverUtilities();
 		
 		// launch the browser
 		wutil.launchTheBrowser();

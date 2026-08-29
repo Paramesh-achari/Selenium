@@ -39,7 +39,7 @@ public class RegisterPomPage {
 	 public void register(String name, String email,String password) {
 		 nameTF.sendKeys(name);
 		 emailTF.sendKeys(email);
-		 pswdTF.sendKeys(email);
+		 pswdTF.sendKeys(password);
 		 registerbtn.click();
 	}
 }
